@@ -103,7 +103,7 @@ export default function Body(props) {
 
       <div className='body_nx3'>
         <div className='body_nx3_wrap'>
-adv
+          adv
         </div>
       </div>
     </div>

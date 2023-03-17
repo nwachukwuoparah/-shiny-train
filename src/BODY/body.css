@@ -92,9 +92,6 @@
   gap: 10px;
 }
 
-
-
-
 .body_nx1_bottom {
   display: flex;
   align-items: center;
@@ -135,9 +132,18 @@
   width: 100%;
   height: 30%;
   background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 
 .body_nx3_wrap {
   width: 70%;
+  height: 100%;
+  background-color: #f8f8f8;
 }
+
+
+
+
+
