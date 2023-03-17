@@ -1,0 +1,166 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Head {
+  width: 100%;
+  height: 160px;
+  /* background-color: grey; */
+  position: fixed;
+  color: white;
+  background-color: rgba(0, 0, 0,10%);
+}
+
+.HeadLogo {
+  position: fixed;
+  top: 0px;
+  left: 15px;
+  width: 160px;
+  height: 130px;
+  background-color: #611B4B;
+}
+
+.HeadTop {
+  width: 100%;
+  height: 5%;
+  /* background-color: #f8f8f8; */
+}
+
+.Head_top {
+  width: 100%;
+  height: 60%;
+  /* background-color: #282626; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Head_top_wrap {
+  width: 86%;
+  height: 100%;
+  /* background-color: red; */
+}
+
+.Head_top_cont {
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(177, 177, 247); */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.Head_top_cont_text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Head_top_action {
+  width: 40%;
+  height: 100%;
+  /* background-color: #f8f8f8; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Head_top_action_top_input {
+  width: 350px;
+  height: 40px;
+  /* background-color: rgb(221, 219, 219); */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid rgb(221, 219, 219);
+}
+
+.Head_top_action_top_input input {
+  width: 85%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  border-color: transparent;
+  outline: none;
+  text-align: center;
+  font-size: 15px;
+}
+
+.Head_top_action_top_button {
+  width: 350px;
+  height: 40px;
+  /* background-color: rgb(221, 219, 219); */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.Head_top_action_top_button button {
+  padding: 3px 10px;
+  /* background-color: rgb(221, 219, 219); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-color: transparent;
+  background-color: #611B4B;
+  border-radius: 5px;
+  color: #f8f8f8;
+}
+
+.Head_bottom {
+  width: 100%;
+  height: 35%;
+  /* background-color: #b4aeae; */
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid rgb(164, 162, 162);
+}
+
+.Head_bottom_wrap {
+  height: 100%;
+  width: 86%;
+  /* background-color: #f8f8f8; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.HeaderNav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  padding: 0px 5px;
+  box-sizing: border-box;
+  border: 5px solid;
+  border-color: transparent;
+  /* background-color: grey; */
+}
+
+.HeaderNav:hover {
+  border-bottom-color: #0089A4;
+}
+
+.Head_bottom_contact {
+  width: 100px;
+  height: 100%;
+  background-color: #0089A4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: 550;
+  color: #f8f8f8;
+}
+
+.HeaderNav_drop {
+  position: absolute;
+  top: 39px;
+  background-color: red;
+}
