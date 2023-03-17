@@ -1,0 +1,32 @@
+.card {
+  width: 23%;
+  height: 90%;
+  background-color: #631B4B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+
+.card:hover {
+  transform: scale(1.0);
+  border-bottom: 2px solid;
+  border-color: transparent;
+  transition: 0.1s;
+}
+
+.card img {
+  height: 80%;
+  width: 100%;
+  border-radius: 3px 3px 0 0;
+}
+
+.card_text {
+  height: 20%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  color: #f8f8f8;
+}

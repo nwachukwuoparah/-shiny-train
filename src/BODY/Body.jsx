@@ -3,7 +3,7 @@ import './body.css'
 import image97 from './97.webp'
 import care_quality from "./care-quality.webp"
 import logo from './logo.svg'
-
+import Card from './CARD/Card'
 export default function Body(props) {
 
 
@@ -103,9 +103,60 @@ export default function Body(props) {
 
       <div className='body_nx3'>
         <div className='body_nx3_wrap'>
-          adv
+          {[1, 2, 3, 4].map((i) => (<Card />))}
         </div>
+        <button>View all Services</button>
       </div>
+
+      <div className='body_nx4'>
+        <span className='body_nx4_text'>
+          <p className='P1'>Enquire <b>now</b></p>
+          <p className='P2'>If you would like to know more about how homecare could benefit you or your loved one please submit your details below.</p>
+        </span>
+
+        <form className='body_nx4_form'>
+          {[1, 2, 3].map((i) => (
+            <>
+              <label className='input1'>Your Name
+                <input />
+              </label>
+            </>
+
+          ))}
+
+
+          <div className='body_nx4_form1'>
+            <label className='body_nx4_form1_input'>Name Of Person Needing Care?
+              <input />
+            </label>
+            <label style={{ display: "flex", flexDirection: "column" }}>That's me
+              <input className='body_nx4_form1_check' type="checkbox" />
+            </label>
+            <label className='body_nx4_form1_input'>Postcode of person needing care
+              <input />
+            </label>
+          </div>
+
+          <div className='body_nx4_form2'>
+            <div className='body_nx4_form2_wrap'>
+              <input className='body_nx4_form1_check' type="checkbox" />
+              <label style={{ display: "flex", flexDirection: "column" }}>
+                That's me
+              </label>
+              
+            </div>
+          </div>
+
+
+
+        </form>
+      </div>
+
+
+
+
+
+
     </div>
   )
 }
