@@ -12,19 +12,55 @@ export default function Header(props) {
       id: 1,
       text: 'About us',
       left: 201.5,
-      text1: 'Food'
+      Text1: [
+        {
+          text1: 'Meet the team',
+        },
+        {
+          text1: 'Areas we cover',
+        },
+        {
+          text1: 'Testimonials',
+        },
+      ]
     },
     {
       id: 2,
       text: 'Our expertise',
       left: 299,
-      text1: 'Food'
+      Text1: [
+        {
+          text1: 'How does our care work',
+        },
+        {
+          text1: 'Our care professional',
+        },
+        {
+          text1: 'Partnerships and professionals',
+        },
+      ]
     },
     {
       id: 3,
       text: 'Home care services',
       left: 429,
-      text1: 'Food'
+      Text1: [
+        {
+          text1: 'Companionship',
+        },
+        {
+          text1: 'Home help and housekeeping',
+        },
+        {
+          text1: 'Personal care',
+        },
+        {
+          text1: 'Live in care',
+        },
+        {
+          text1: 'Our care Services',
+        },
+      ]
     },
     {
       id: 4,
@@ -34,13 +70,60 @@ export default function Header(props) {
       id: 5,
       text: 'Advice & support',
       left: 768,
-      text1: 'Food'
+      Text1: [
+        {
+          text1: 'Cost of care',
+        },
+        {
+          text1: 'FAQs',
+        },
+        {
+          text1: 'How to age well',
+        },
+        {
+          text1: 'Understanding and pepairing for home care',
+        },
+        {
+          text1: 'Choosing the right care for you',
+        },
+        {
+          text1: 'Nutrition',
+        },
+        {
+          text1: 'Preventing hospitalisation',
+        },
+        {
+          text1: 'Preventing falls',
+        },
+        {
+          text1: 'Staying safe at home',
+        },
+        {
+          text1: 'Health and wellbeing',
+        },
+        {
+          text1: 'Community involvement',
+        },
+        {
+          text1: 'Alzheimers and dementia care',
+        },
+      ]
     },
     {
       id: 6,
       text: 'Join our team',
       left: 929,
-      text1: 'Food'
+      Text1: [
+        {
+          text1: 'Working in care',
+        },
+        {
+          text1: 'Current vacancies',
+        },
+        {
+          text1: 'Appply to be a care professional',
+        },
+      ]
     },
     {
       id: 7,

@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 .Head {
@@ -9,7 +10,7 @@
   /* background-color: grey; */
   position: fixed;
   color: white;
-  background-color: rgba(0, 0, 0,10%);
+  background-color: rgba(0, 0, 0, 10%);
 }
 
 .HeadLogo {
@@ -143,6 +144,18 @@
   /* background-color: grey; */
 }
 
+.HeaderNav_drop {
+  position: absolute;
+  top: 160px;
+  width: 350px;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
 .HeaderNav:hover {
   border-bottom-color: #0089A4;
 }
@@ -157,10 +170,4 @@
   font-size: 17px;
   font-weight: 550;
   color: #f8f8f8;
-}
-
-.HeaderNav_drop {
-  position: absolute;
-  top: 39px;
-  background-color: red;
 }

@@ -9,15 +9,11 @@ export default function HeaderNav(props) {
       onMouseLeave={() => { setDrop(false) }}>
       <p>{props.text}</p>
 
-      {drop && <div style={{
-        position: 'absolute',
-        top: 160,
-        width: 250,
+      {drop && props.Text1 && <div className='HeaderNav_drop' style={{
         left: props.left,
-        border: '1 solid',
-        backgroundColor: 'red',
       }} >
-        <p>{props.text1}</p>
+        {/* {console.log(props.Text1)} */}
+        {props.Text1?.map((i) => (<p>{i.text1}</p>))}
       </div>}
     </div>
 
