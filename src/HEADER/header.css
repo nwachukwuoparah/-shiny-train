@@ -74,19 +74,35 @@
   /* background-color: rgb(221, 219, 219); */
   display: flex;
   align-items: center;
-  gap: 10px;
   border: 1px solid rgb(221, 219, 219);
 }
 
+
+
 .Head_top_action_top_input input {
-  width: 85%;
-  height: 90%;
+  width: 88%;
+  height: 100%;
   display: flex;
   align-items: center;
   border-color: transparent;
   outline: none;
   text-align: center;
   font-size: 15px;
+}
+
+.input_action {
+  width: 12%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #554F4F
+}
+
+.input_action:hover {
+  background-color: #0081A3;
+  color: white;
+  transition: 400ms;
 }
 
 .Head_top_action_top_button {
@@ -110,6 +126,7 @@
   background-color: #611B4B;
   border-radius: 5px;
   color: #f8f8f8;
+  cursor: pointer;
 }
 
 .Head_bottom {
@@ -142,6 +159,7 @@
   border: 5px solid;
   border-color: transparent;
   /* background-color: grey; */
+  color: #434343;
 }
 
 .HeaderNav_drop {
@@ -149,11 +167,19 @@
   top: 160px;
   width: 350px;
   background-color: white;
-  color: black;
-  padding: 10px 20px;
+  color: #434343;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+}
+
+.HeaderNav_drop p {
+  padding: 10px 20px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.HeaderNav_drop p:hover {
+  background-color: #F0EAEE;
 }
 
 .HeaderNav:hover {
@@ -170,4 +196,5 @@
   font-size: 17px;
   font-weight: 550;
   color: #f8f8f8;
+  cursor: pointer;
 }

@@ -166,7 +166,9 @@ export default function Header(props) {
             <div className='Head_top_action'>
               <div className='Head_top_action_top_input'>
                 <input placeholder='Search Website' />
-                <FaSearch fontSize={25} color='554F4F' />
+                <div className='input_action'>
+                  <FaSearch  fontSize={25} />
+                </div>
               </div>
 
               <div className='Head_top_action_top_button'>

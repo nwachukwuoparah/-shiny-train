@@ -10,10 +10,7 @@
 }
 
 .card:hover {
-  transform: scale(1.0);
-  border-bottom: 2px solid;
-  border-color: transparent;
-  transition: 0.1s;
+  /* transition: 0.1s; */
 }
 
 .card img {
