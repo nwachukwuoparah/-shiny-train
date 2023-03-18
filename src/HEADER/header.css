@@ -71,7 +71,7 @@
 .Head_top_action_top_input {
   width: 350px;
   height: 40px;
-  /* background-color: rgb(221, 219, 219); */
+  background-color: rgb(221, 219, 219);
   display: flex;
   align-items: center;
   border: 1px solid rgb(221, 219, 219);
