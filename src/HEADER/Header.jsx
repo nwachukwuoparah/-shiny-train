@@ -25,7 +25,7 @@ export default function Header(props) {
         },
         {
           text1: 'Testimonials',
-          nav: '/taunton-west-somerset/',
+          nav: '/taunton-west-somerset/testimonal',
         },
       ]
     },

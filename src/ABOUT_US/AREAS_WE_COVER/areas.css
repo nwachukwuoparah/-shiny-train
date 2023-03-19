@@ -11,14 +11,16 @@
 }
 
 .areas_bnx1 ul {
-  width: 65%;
-  line-height: 26px;
+  width: 60%;
+  line-height: 36px;
 }
 
 .areas_bnx2 {
   width: 100%;
-  background-color: grey;
+  /* background-color: grey; */
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 50px;
+  margin-bottom: 50px;
 }

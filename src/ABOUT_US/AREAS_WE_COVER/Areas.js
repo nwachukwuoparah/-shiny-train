@@ -3,7 +3,7 @@ import './areas.css'
 import Image from '../../COMPONENT/IMAGE/image'
 import img_105310_06007_7951x2785 from '../images/210122-105310-06007-7951x2785.jpg'
 import NavCard from '../../COMPONENT/NAVCARD/Nav_card'
-import wBDHI2077_3840x2494 from '../images/BDHI2077-3840x2494.jpg'
+import img_3840x2494 from '../images/BDHI2077-3840x2494.jpg'
 export default function Areas(props) {
 
 
@@ -45,7 +45,8 @@ export default function Areas(props) {
         </ul>
       </div>
       <div className='areas_bnx2'>
-        <NavCard image={wBDHI2077_3840x2494} />
+        <NavCard Client={img_3840x2494} />
+        <NavCard Client={img_3840x2494} />
       </div>
     </div>
   )

@@ -1,0 +1,51 @@
+.testimonal_text {
+  width: 100%;
+  height: 800px;
+  background-color: #631B4B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonal_text_wrap {
+  width: 50%;
+  font-size: 26px;
+  font-weight: 300;
+  color: #f8f8f8;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.testimonal_text_wrap h4 {
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 35px;
+}
+
+.testimonal_text_wrap h5,
+h6 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 20px;
+}
+
+.testimonal_bnx1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.testimonal_bnx2 {
+  width: 100%;
+  /* background-color: grey; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
