@@ -11,6 +11,7 @@
   position: fixed;
   color: white;
   background-color: rgba(0, 0, 0, 10%);
+  z-index: 1000;
 }
 
 .HeadLogo {
@@ -156,10 +157,22 @@
   font-size: 18px;
   padding: 0px 5px;
   box-sizing: border-box;
-  border: 5px solid;
+  border-bottom: 5px solid grey;
   border-color: transparent;
-  /* background-color: grey; */
   color: #434343;
+}
+
+.HeaderNav:hover {
+  border-bottom-color: #0089A4;
+}
+.HeaderNav_nav{
+  text-decoration: none;
+  color: #f8f8f8;
+}
+
+.HeaderNav_nav1{
+  text-decoration: none;
+  color:  #434343;
 }
 
 .HeaderNav_drop {
@@ -183,9 +196,7 @@
   background-color: #F0EAEE;
 }
 
-.HeaderNav:hover {
-  border-bottom-color: #0089A4;
-}
+
 
 .Head_bottom_contact {
   width: 100px;

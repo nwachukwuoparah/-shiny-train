@@ -3,15 +3,6 @@
   /* background-color: rgb(229, 227, 227); */
 }
 
-.body_img {
-  height: 650px;
-  /* width: 100%; */
-  background-image: url(./images/210122-111326-06158-7951x3390-6360x2711.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  /* border: 1px solid; */
-}
-
 .body_nx1 {
   width: 100%;
   margin-top: 5px;

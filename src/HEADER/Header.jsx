@@ -3,8 +3,9 @@ import './header.css'
 import { FaSearch } from "react-icons/fa";
 import { MdOutlineLocationOn } from "react-icons/md";
 import HeaderNav from './HeaderNav';
+import { useNavigate } from 'react-router-dom';
 export default function Header(props) {
-
+  const Navigate = useNavigate()
   const [scroll, setScroll] = useState(false)
 
   const head = [
@@ -12,15 +13,19 @@ export default function Header(props) {
       id: 1,
       text: 'About us',
       left: 201.5,
+      nav: '/taunton-west-somerset',
       Text1: [
         {
           text1: 'Meet the team',
+          nav: '/taunton-west-somerset/our-team',
         },
         {
           text1: 'Areas we cover',
+          nav: '/taunton-west-somerset/areas-we-cover',
         },
         {
           text1: 'Testimonials',
+          nav: '/taunton-west-somerset/',
         },
       ]
     },
@@ -149,7 +154,7 @@ export default function Header(props) {
 
   return (
     <div style={{ backgroundColor: scroll ? 'White' : null, color: scroll ? 'black' : null }} className='Head'>
-      <div className='HeadLogo'></div>
+      <div onClick={() => Navigate('/')} className='HeadLogo'></div>
       <div className='HeadTop'></div>
       <div className='Head_top'>
         <div className='Head_top_wrap'>
@@ -167,7 +172,7 @@ export default function Header(props) {
               <div className='Head_top_action_top_input'>
                 <input placeholder='Search Website' />
                 <div className='input_action'>
-                  <FaSearch  fontSize={25} />
+                  <FaSearch fontSize={25} />
                 </div>
               </div>
 
@@ -187,7 +192,7 @@ export default function Header(props) {
 
       <div className='Head_bottom'>
         <div className='Head_bottom_wrap'>
-          {head.map((i) => (<HeaderNav key={i.id} {...i} />))}
+          {head.map((i) => (<HeaderNav scroll={scroll} key={i.id} {...i} />))}
           <div className='Head_bottom_contact'>
             Contact us
           </div>

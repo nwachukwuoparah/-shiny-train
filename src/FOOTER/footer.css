@@ -29,9 +29,12 @@
   flex-direction: column;
   gap: 20px;
 }
-
 .footer_top_1 p{
-cursor: pointer;
+  cursor: pointer;
+  }
+  
+.footer_top_1 p:hover{
+text-decoration: underline;
 }
 
 .footer_buttom {

@@ -1,0 +1,14 @@
+.image {
+  height: 650px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 250%;
+  font-family: 'Open Sans', sans-serif, arial;
+  font-weight: 400;
+  color: #f8f8f8;
+}

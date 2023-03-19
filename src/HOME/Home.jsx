@@ -3,16 +3,16 @@ import './home.css'
 import image97 from './images/97.webp'
 import care_quality from "./images/care-quality.webp"
 import logo from './images/logo.svg'
+import topimg from './images/210122-111326-06158-7951x3390-6360x2711.jpg'
 import Card from './CARD/Card'
 import { Form } from '../COMPONENT/FORM/Form'
-import Footer from '../FOOTER/Footer'
+import Image from '../COMPONENT/IMAGE/image'
 export default function Body(props) {
 
 
   return (
     <div className='body'>
-      <div className='body_img'>
-      </div>
+      <Image image={topimg} text="Home" />
       <div className='body_nx1'>
         <span className='body_nx1_top'><p>Why</p><b><h3>choose</h3></b><p>us?</p></span>
         <div className='body_nx1_middle'>

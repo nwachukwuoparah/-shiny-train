@@ -1,0 +1,24 @@
+.areas_bnx1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 22px;
+  font-weight: 100;
+  gap: 20px;
+  margin: 30px 30px;
+}
+
+.areas_bnx1 ul {
+  width: 65%;
+  line-height: 26px;
+}
+
+.areas_bnx2 {
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
