@@ -4,7 +4,7 @@ export default function TheamCard(props) {
 
 
   return (
-    <div style={{ border: props.stop && 'none' }} className='theme_card'>
+    <div style={{ border: props.stop && 'none', width: props.width && "95%" }} className='theme_card'>
       <div style={{ width: !props.image && "100%" }} className='theme_card_text'>
         <h2>{props.text1}</h2>
         {props.text2 && <p>{props.text2}</p>}
@@ -14,6 +14,11 @@ export default function TheamCard(props) {
         {props.text6 && <p>{props.text6}</p>}
         {props.text7 && <p>{props.text7}</p>}
         {props.text8 && <p>{props.text8}</p>}
+        <ul>
+          {props.li1 && <li>{props.li1}</li>}
+          {props.li2 && <li>{props.li2}</li>}
+          {props.li3 && <li>{props.li3}</li>}
+        </ul>
       </div>
       <div className='theme_card_img'>
         {props.image && <img src={props.image} alt="image" />}
