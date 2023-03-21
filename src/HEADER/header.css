@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 .Head {
@@ -9,7 +10,8 @@
   /* background-color: grey; */
   position: fixed;
   color: white;
-  background-color: rgba(0, 0, 0,10%);
+  background-color: rgba(0, 0, 0, 10%);
+  z-index: 1000;
 }
 
 .HeadLogo {
@@ -70,22 +72,38 @@
 .Head_top_action_top_input {
   width: 350px;
   height: 40px;
-  /* background-color: rgb(221, 219, 219); */
+  background-color: rgb(221, 219, 219);
   display: flex;
   align-items: center;
-  gap: 10px;
   border: 1px solid rgb(221, 219, 219);
 }
 
+
+
 .Head_top_action_top_input input {
-  width: 85%;
-  height: 90%;
+  width: 88%;
+  height: 100%;
   display: flex;
   align-items: center;
   border-color: transparent;
   outline: none;
   text-align: center;
   font-size: 15px;
+}
+
+.input_action {
+  width: 12%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #554F4F
+}
+
+.input_action:hover {
+  background-color: #0081A3;
+  color: white;
+  transition: 400ms;
 }
 
 .Head_top_action_top_button {
@@ -109,6 +127,7 @@
   background-color: #611B4B;
   border-radius: 5px;
   color: #f8f8f8;
+  cursor: pointer;
 }
 
 .Head_bottom {
@@ -117,7 +136,7 @@
   /* background-color: #b4aeae; */
   display: flex;
   justify-content: flex-end;
-  border: 1px solid rgb(164, 162, 162);
+  border: 1px solid rgb(206, 205, 205);
 }
 
 .Head_bottom_wrap {
@@ -138,14 +157,46 @@
   font-size: 18px;
   padding: 0px 5px;
   box-sizing: border-box;
-  border: 5px solid;
+  border-bottom: 5px solid grey;
   border-color: transparent;
-  /* background-color: grey; */
+  color: #434343;
 }
 
 .HeaderNav:hover {
   border-bottom-color: #0089A4;
 }
+.HeaderNav_nav{
+  text-decoration: none;
+  color: #f8f8f8;
+}
+
+.HeaderNav_nav1{
+  text-decoration: none;
+  color:  #434343;
+}
+
+.HeaderNav_drop {
+  position: absolute;
+  top: 160px;
+  width: 350px;
+  background-color: white;
+  color: #434343;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 5px 0px rgba(128, 128, 128,20%);
+}
+
+.HeaderNav_drop p {
+  padding: 10px 20px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.HeaderNav_drop p:hover {
+  background-color: #F0EAEE;
+}
+
+
 
 .Head_bottom_contact {
   width: 100px;
@@ -157,10 +208,5 @@
   font-size: 17px;
   font-weight: 550;
   color: #f8f8f8;
-}
-
-.HeaderNav_drop {
-  position: absolute;
-  top: 39px;
-  background-color: red;
+  cursor: pointer;
 }

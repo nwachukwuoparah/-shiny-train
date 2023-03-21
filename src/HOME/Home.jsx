@@ -1,30 +1,32 @@
 import React from 'react'
-import './body.css'
-import image97 from './97.webp'
-import care_quality from "./care-quality.webp"
-import logo from './logo.svg'
-
+import './home.css'
+import image97 from './images/97.webp'
+import care_quality from "./images/care-quality.webp"
+import logo from './images/logo.svg'
+import topimg from './images/210122-111326-06158-7951x3390-6360x2711.jpg'
+import Card from './CARD/Card'
+import { Form } from '../COMPONENT/FORM/Form'
+import Image from '../COMPONENT/IMAGE/image'
 export default function Body(props) {
 
 
   return (
     <div className='body'>
-      <div className='body_img'>
-      </div>
+      <Image image={topimg} text="Home" />
       <div className='body_nx1'>
         <span className='body_nx1_top'><p>Why</p><b><h3>choose</h3></b><p>us?</p></span>
         <div className='body_nx1_middle'>
           <div className='body_nx1_middle_first'>
-            <img src={image97} />
+            <img src={image97} alt="img" />
           </div>
           <div className='body_nx1_middle_second'>
-            <img src={care_quality} />
+            <img src={care_quality} alt="img" />
             <h4>Overall rating</h4>
             <p>10 july 2019</p>
             <button>OUTSTANDING</button>
           </div>
           <div className='body_nx1_middle_third'>
-            <img src={care_quality} />
+            <img src={care_quality} alt="img" />
             <div className='body_nx1_middle_third_text'>
               <div style={{
                 width: 60,
@@ -103,9 +105,19 @@ export default function Body(props) {
 
       <div className='body_nx3'>
         <div className='body_nx3_wrap'>
-adv
+          {[1, 2, 3, 4].map((i) => (<Card />))}
         </div>
+        <button>View all Services</button>
       </div>
+
+      <div className='body_nx4'>
+        <span className='body_nx4_text'>
+          <p className='P1'>Enquire <b>now</b></p>
+          <p className='P2'>If you would like to know more about how homecare could benefit you or your loved one please submit your details below.</p>
+        </span>
+        <Form />
+      </div>
+      {/* <Footer /> */}
     </div>
   )
 }

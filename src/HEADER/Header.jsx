@@ -3,8 +3,9 @@ import './header.css'
 import { FaSearch } from "react-icons/fa";
 import { MdOutlineLocationOn } from "react-icons/md";
 import HeaderNav from './HeaderNav';
+import { useNavigate } from 'react-router-dom';
 export default function Header(props) {
-
+  const Navigate = useNavigate()
   const [scroll, setScroll] = useState(false)
 
   const head = [
@@ -12,19 +13,59 @@ export default function Header(props) {
       id: 1,
       text: 'About us',
       left: 201.5,
-      text1: 'Food'
+      nav: '/taunton-west-somerset',
+      Text1: [
+        {
+          text1: 'Meet the team',
+          nav: '/taunton-west-somerset/our-team',
+        },
+        {
+          text1: 'Areas we cover',
+          nav: '/taunton-west-somerset/areas-we-cover',
+        },
+        {
+          text1: 'Testimonials',
+          nav: '/taunton-west-somerset/testimonal',
+        },
+      ]
     },
     {
       id: 2,
       text: 'Our expertise',
       left: 299,
-      text1: 'Food'
+      Text1: [
+        {
+          text1: 'How does our care work',
+        },
+        {
+          text1: 'Our care professional',
+        },
+        {
+          text1: 'Partnerships and professionals',
+        },
+      ]
     },
     {
       id: 3,
       text: 'Home care services',
       left: 429,
-      text1: 'Food'
+      Text1: [
+        {
+          text1: 'Companionship',
+        },
+        {
+          text1: 'Home help and housekeeping',
+        },
+        {
+          text1: 'Personal care',
+        },
+        {
+          text1: 'Live in care',
+        },
+        {
+          text1: 'Our care Services',
+        },
+      ]
     },
     {
       id: 4,
@@ -34,13 +75,60 @@ export default function Header(props) {
       id: 5,
       text: 'Advice & support',
       left: 768,
-      text1: 'Food'
+      Text1: [
+        {
+          text1: 'Cost of care',
+        },
+        {
+          text1: 'FAQs',
+        },
+        {
+          text1: 'How to age well',
+        },
+        {
+          text1: 'Understanding and pepairing for home care',
+        },
+        {
+          text1: 'Choosing the right care for you',
+        },
+        {
+          text1: 'Nutrition',
+        },
+        {
+          text1: 'Preventing hospitalisation',
+        },
+        {
+          text1: 'Preventing falls',
+        },
+        {
+          text1: 'Staying safe at home',
+        },
+        {
+          text1: 'Health and wellbeing',
+        },
+        {
+          text1: 'Community involvement',
+        },
+        {
+          text1: 'Alzheimers and dementia care',
+        },
+      ]
     },
     {
       id: 6,
       text: 'Join our team',
       left: 929,
-      text1: 'Food'
+      Text1: [
+        {
+          text1: 'Working in care',
+        },
+        {
+          text1: 'Current vacancies',
+        },
+        {
+          text1: 'Appply to be a care professional',
+        },
+      ]
     },
     {
       id: 7,
@@ -66,7 +154,7 @@ export default function Header(props) {
 
   return (
     <div style={{ backgroundColor: scroll ? 'White' : null, color: scroll ? 'black' : null }} className='Head'>
-      <div className='HeadLogo'></div>
+      <div onClick={() => Navigate('/')} className='HeadLogo'></div>
       <div className='HeadTop'></div>
       <div className='Head_top'>
         <div className='Head_top_wrap'>
@@ -83,7 +171,9 @@ export default function Header(props) {
             <div className='Head_top_action'>
               <div className='Head_top_action_top_input'>
                 <input placeholder='Search Website' />
-                <FaSearch fontSize={25} color='554F4F' />
+                <div className='input_action'>
+                  <FaSearch fontSize={25} />
+                </div>
               </div>
 
               <div className='Head_top_action_top_button'>
@@ -102,7 +192,7 @@ export default function Header(props) {
 
       <div className='Head_bottom'>
         <div className='Head_bottom_wrap'>
-          {head.map((i) => (<HeaderNav key={i.id} {...i} />))}
+          {head.map((i) => (<HeaderNav scroll={scroll} key={i.id} {...i} />))}
           <div className='Head_bottom_contact'>
             Contact us
           </div>
