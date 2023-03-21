@@ -6,7 +6,6 @@ export default function ContactCard(props) {
   return (
     <div className='Contact_card'>
       <div className='Contact_card_wrap'>
-
         {props.arr?.map((i) => (
           <div className='Card'>
             <div className='Card_img'>

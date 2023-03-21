@@ -37,12 +37,15 @@ export default function Header(props) {
       Text1: [
         {
           text1: 'How does our care work',
+          nav: '/taunton-west-somerset1/our-careWork'
         },
         {
           text1: 'Our care professional',
+          nav: '/taunton-west-somerset1/our_care_prof'
         },
         {
           text1: 'Partnerships and professionals',
+          nav: '/taunton-west-somerset1/partnerships'
         },
       ]
     },
@@ -187,10 +190,6 @@ export default function Header(props) {
           </div>
         </div>
       </div>
-
-
-
-
       <div className='Head_bottom'>
         <div className='Head_bottom_wrap'>
           {head.map((i) => (<HeaderNav scroll={scroll} key={i.id} {...i} />))}

@@ -79,9 +79,7 @@ export default function OurExperience(props) {
           ))}
         </div>
       </div>
-
       <ContactCard image={caregiver_helping} arr={[1, 2, 3, 4, 5]} />
-      
     </div>
   )
 }
