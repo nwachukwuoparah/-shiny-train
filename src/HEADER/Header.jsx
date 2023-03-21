@@ -33,6 +33,7 @@ export default function Header(props) {
       id: 2,
       text: 'Our expertise',
       left: 299,
+      nav: '/taunton-west-somerset1',
       Text1: [
         {
           text1: 'How does our care work',
