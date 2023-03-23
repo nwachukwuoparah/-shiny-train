@@ -1,0 +1,61 @@
+.Getting_Started{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.WeHelp{
+    width: 60%;
+    text-align: center;
+    margin-top: 50px;
+}
+.WeHelp p{
+    font-size: 24px;
+}
+.Get_Intouch{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.Form_Div{
+    margin-top: 50px;
+    background-color: rgb(226, 223, 223);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Form_Div p{
+    font-size: 24px;
+    font-weight: 50;
+    margin-top: 20px;
+}
+.Get_Intouch_Contact{
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    /* color: #621c4b; */
+}.Get_Intouch_Contact h3{
+    color: #621c4b; 
+}
+.OfficeADD {
+    /* color: #621c4b;  */
+    margin-top: 20px;
+}
+.OfficeADD h3{
+    color: #621c4b; 
+}
+.OfficeADD p{
+    margin-top: 20px;
+}
+.Get_Intouch h2{
+    font-size: 28px;
+}

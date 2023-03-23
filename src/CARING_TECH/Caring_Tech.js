@@ -2,6 +2,7 @@ import React from 'react'
 import Image from '../COMPONENT/IMAGE/image'
 import Home_Monitoring from './image/Home-Monitoring2-7951x2785.jpg'
 import "./Caring_Tech.css"
+import Caring_Tech_Card from './Caring_Tech_Card'
 const Caring_Tech = () => {
   return (
     <div className='Care_Tech'>
@@ -42,7 +43,12 @@ const Caring_Tech = () => {
           </ul>
           <p>Be confident that your local office office team will know if anything changes</p>
         </div>
+        <div className='Mom_Dad'>
+          <h4>We're here for Mom and Dad</h4>
+          <p>All the technology we use has to be good enough for our own parents, otherwise, we wouldn’t promote it. You can rest assured that even when alone, Mum or Dad are cared for and well at home with Home Instead. Get in touch today to see how we can help.</p>
+        </div>
       </div>
+      <Caring_Tech_Card/>
     </div>
   )
 }

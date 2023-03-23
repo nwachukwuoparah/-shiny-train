@@ -1,11 +1,12 @@
-.Care_Tech{
+.Care_Tech {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.Care_Tech_Wrap{
+
+.Care_Tech_Wrap {
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -16,20 +17,84 @@
     padding: 10px;
 
 }
-.Care_Tech_Wrap p{
+
+.Care_Tech_Wrap p {
     font-size: 24px;
 }
-.WellAtHome ul{
+
+.WellAtHome ul {
     margin-top: 20px;
-margin-left: 25px;
-font-size: 24px;
+    margin-left: 25px;
+    font-size: 24px;
 }
-.WellAtHome p{
+
+.WellAtHome p {
     margin-top: 20px;
 }
-.SafeAtHome p{
-margin-top: 20px;
-}
-.OurTech p{
+
+.SafeAtHome p {
     margin-top: 20px;
+}
+
+.OurTech p {
+    margin-top: 20px;
+}
+
+.Connected p {
+    margin-top: 20px;
+}
+
+.Connected ul {
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 24px;
+}
+.Mom_Dad h4{
+  font-size: 28px;
+  font-weight: 100;
+  margin-top: 20px;
+}
+.Caring_Tech_Card{
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+
+}
+.Caring_Tech_Card_Wrap{
+    width: 300px;
+display: flex;
+/* align-items: center; */
+justify-content: center;
+flex-direction: column;
+background-color: white;
+border-radius: 8px;
+font-size: 20px;
+/* border: 1px solid gray; */
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+/* height: 280px; */
+padding: 10px;
+transition: all .2s ease-in-out; 
+}
+.Caring_Tech_Card_Wrap:hover{
+    transform: scale(1.04); 
+    cursor: pointer;
+}
+.Caring_Tech_Card_Wrap h4{
+    color: #621c4b;
+    margin-bottom: 20px;
+}
+/* .Caring_Tech_Card_Wrap p{
+    text-align: center;
+} */
+.Care_Card_Button{
+    width: 200px;
+    height: 70px;
+    margin-top: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: #621c4b;
+    color: white;
+    cursor: pointer;
 }
