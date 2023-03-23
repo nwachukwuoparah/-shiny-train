@@ -82,7 +82,8 @@ export default function Header(props) {
     },
     {
       id: 4,
-      text: 'Caring technology'
+      text: 'Caring technology',
+      nav: '/caring-technology',
     },
     {
       id: 5,
@@ -145,7 +146,8 @@ export default function Header(props) {
     },
     {
       id: 7,
-      text: 'Getting started'
+      text: 'Getting started',
+      nav: "/gettingstarted"
     },
     {
       id: 8,
