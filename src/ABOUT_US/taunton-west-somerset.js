@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import About_us from './ABOUTUS/About_us'
 import Team from './Team/Team'
@@ -10,6 +10,13 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 export default function TauntonWestSomerset(props) {
 
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }, [])
 
   return (
     <>
