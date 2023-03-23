@@ -70,7 +70,8 @@ export default function Header(props) {
     },
     {
       id: 4,
-      text: 'Caring technology'
+      text: 'Caring technology',
+      nav: '/caring-technology',
     },
     {
       id: 5,

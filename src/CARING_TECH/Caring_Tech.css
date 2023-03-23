@@ -1,0 +1,35 @@
+.Care_Tech{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Care_Tech_Wrap{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    padding: 10px;
+
+}
+.Care_Tech_Wrap p{
+    font-size: 24px;
+}
+.WellAtHome ul{
+    margin-top: 20px;
+margin-left: 25px;
+font-size: 24px;
+}
+.WellAtHome p{
+    margin-top: 20px;
+}
+.SafeAtHome p{
+margin-top: 20px;
+}
+.OurTech p{
+    margin-top: 20px;
+}
