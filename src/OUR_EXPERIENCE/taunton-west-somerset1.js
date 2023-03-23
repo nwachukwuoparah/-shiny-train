@@ -1,8 +1,9 @@
 import React from 'react'
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import OurExperience from './EXPERIENCE/ourExperience';
-
-
+import CareWork from './PARTNERSHIPS/partnerships';
+import OurCareProf from './OUR_CARE_PROF/Our_care_prof';
+import Partnerships from './PARTNERSHIPS/partnerships';
 export default function TauntonWestSomerset1(props) {
 
 
@@ -11,9 +12,9 @@ export default function TauntonWestSomerset1(props) {
     <>
       <Routes>
         <Route path='/' element={<OurExperience />} />
-        {/* <Route path='/our-team' element={<Team />} />
-        <Route path='/areas-we-cover' element={<Areas/>} />
-        <Route path='/testimonal' element={<Testimonal/>} /> */}
+        <Route path='/our-careWork' element={<CareWork />} />
+        <Route path='/our_care_prof' element={<OurCareProf />} />
+        <Route path='/partnerships' element={<Partnerships />} />
       </Routes>
     </>
 
