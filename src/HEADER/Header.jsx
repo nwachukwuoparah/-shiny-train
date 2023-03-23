@@ -4,6 +4,9 @@ import { FaSearch } from "react-icons/fa";
 import { MdOutlineLocationOn } from "react-icons/md";
 import HeaderNav from './HeaderNav';
 import { useNavigate } from 'react-router-dom';
+
+
+
 export default function Header(props) {
   const Navigate = useNavigate()
   const [scroll, setScroll] = useState(false)
@@ -53,21 +56,27 @@ export default function Header(props) {
       id: 3,
       text: 'Home care services',
       left: 429,
+      nav: '/taunton-west-somerset2',
       Text1: [
         {
           text1: 'Companionship',
+          nav: '/taunton-west-somerset2/companionship',
         },
         {
           text1: 'Home help and housekeeping',
+          nav: '/taunton-west-somerset2/Home_kepping',
         },
         {
           text1: 'Personal care',
+          nav: '/taunton-west-somerset2/personal_care',
         },
         {
           text1: 'Live in care',
+          nav: '/taunton-west-somerset2/live_in_care',
         },
         {
           text1: 'Our care Services',
+          // nav: '/taunton-west-somerset2/companionship',
         },
       ]
     },
