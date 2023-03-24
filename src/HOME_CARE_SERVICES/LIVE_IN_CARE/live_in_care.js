@@ -2,6 +2,12 @@ import React from 'react'
 import './live_in_care.css'
 import Image from '../../COMPONENT/IMAGE/image'
 import Home_Monitoring from '../images/Home-Monitoring1-7537x2640.jpg'
+import Form from '../../COMPONENT/FORM/Form'
+import NavCard from '../../COMPONENT/NAVCARD/Nav_card'
+import caregiver_caring_elderly from '../images/caregiver-caring-elderly-lady-in-her-home-370x240.jpg'
+
+
+
 export default function LiveInCare(props) {
 
   const item = [
@@ -9,13 +15,6 @@ export default function LiveInCare(props) {
 
     }
   ]
-
-  const a = [1, 2, 3]
-  const b = [...a]
-
-  b.push(4)
-  console.log(a)
-  console.log(b)
 
   return (
     <div className='livein_care'>
@@ -34,8 +33,14 @@ export default function LiveInCare(props) {
             <p></p>
           </span>
         </div>
-
       </div>
+      <Form />
+      <div className='livein_care_card'>
+        {[1, 2].map((i) => (
+          <NavCard Client={caregiver_caring_elderly} />
+        ))}
+      </div>
+
     </div>
   )
 }
