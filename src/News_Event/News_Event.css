@@ -7,7 +7,7 @@
 }
 
 .News_Event_Card_Wrap {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
