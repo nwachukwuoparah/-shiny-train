@@ -2,7 +2,10 @@ import React from 'react'
 import Image from '../COMPONENT/IMAGE/image'
 import Home_Monitoring from './image/Home-Monitoring2-7951x2785.jpg'
 import "./Caring_Tech.css"
-import Caring_Tech_Card from './Caring_Tech_Card'
+import LaingBuisson from './image/LaingBuisson April 2016 No.11-2362x1534.jpg'
+import ContactCard from '../COMPONENT/CONTACT_CARD/Contact_card'
+
+
 const Caring_Tech = () => {
   return (
     <div className='Care_Tech'>
@@ -48,7 +51,7 @@ const Caring_Tech = () => {
           <p>All the technology we use has to be good enough for our own parents, otherwise, we wouldn’t promote it. You can rest assured that even when alone, Mum or Dad are cared for and well at home with Home Instead. Get in touch today to see how we can help.</p>
         </div>
       </div>
-      <Caring_Tech_Card/>
+      < ContactCard arr={[1, 2, 3, 4]} image={LaingBuisson} />
     </div>
   )
 }

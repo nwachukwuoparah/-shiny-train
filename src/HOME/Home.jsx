@@ -5,7 +5,7 @@ import care_quality from "./images/care-quality.webp"
 import logo from './images/logo.svg'
 import topimg from './images/210122-111326-06158-7951x3390-6360x2711.jpg'
 import Card from './CARD/Card'
-import { Form } from '../COMPONENT/FORM/Form'
+import Form from '../COMPONENT/FORM/Form'
 import Image from '../COMPONENT/IMAGE/image'
 export default function Body(props) {
 
@@ -109,14 +109,7 @@ export default function Body(props) {
         </div>
         <button>View all Services</button>
       </div>
-
-      <div className='body_nx4'>
-        <span className='body_nx4_text'>
-          <p className='P1'>Enquire <b>now</b></p>
-          <p className='P2'>If you would like to know more about how homecare could benefit you or your loved one please submit your details below.</p>
-        </span>
-        <Form />
-      </div>
+      <Form />
       {/* <Footer /> */}
     </div>
   )

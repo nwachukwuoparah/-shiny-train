@@ -85,3 +85,31 @@ border-radius: 5px;
   border-color: transparent;
   border-radius: 2px;
 }
+
+.body_nx4 {
+  width: 100%;
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  gap: 30px;
+}
+
+.body_nx4_text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.P1 {
+  font-size: 35px;
+}
+
+.P2 {
+  font-size: 22px;
+}

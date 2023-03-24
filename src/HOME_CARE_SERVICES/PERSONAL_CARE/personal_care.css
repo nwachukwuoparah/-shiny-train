@@ -1,0 +1,47 @@
+.Personal_care_bnx1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.Personal_care_bnx2 {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.Personal_care_bnx3 {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px auto;
+  padding-bottom: 40px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid grey;
+}
+
+.Personal_care_bnx4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.Personal_care_bnx4 button {
+  padding: 20px 60px;
+  border-color: transparent;
+  background-color: #631B4B;
+  color: #F8F8F8;
+  font-size: 20px;
+  border-radius: 3px;
+}
