@@ -142,7 +142,8 @@ export default function Header(props) {
     },
     {
       id: 8,
-      text: 'News & events'
+      text: 'News & events',
+      nav: "/newsevent"
     },
   ]
 
