@@ -21,13 +21,14 @@ function App() {
           <Route path='/taunton-west-somerset1/*' element={<TauntonWestSomerset1 />} />
           <Route path='/taunton-west-somerset2/*' element={<TauntonWestSomerset2 />} />
           <Route path='/caring-technology' element={<Caring_Tech />} />
-          <Route path='/gettingstarted' element={<Getting_Started/>}/>
-          <Route path='/newsevent' element={<News_Event/>}/>
+          <Route path='/gettingstarted' element={<Getting_Started />} />
+          <Route path='/newsevent' element={<News_Event />} />
         </Routes>
         <Footer />
       </HashRouter>
     </div>
   )
+
 }
 
 export default App

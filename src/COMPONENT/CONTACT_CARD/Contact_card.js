@@ -9,7 +9,7 @@ export default function ContactCard(props) {
         {props.arr?.map((i) => (
           <div className='Card'>
             <div className='Card_img'>
-              <img src={props.image} alt='image' />
+              <img src={i.image} alt='image' />
             </div>
 
             <div className='Card_text'>

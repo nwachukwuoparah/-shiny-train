@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './home.css'
 import image97 from './images/97.webp'
 import care_quality from "./images/care-quality.webp"
@@ -8,7 +8,6 @@ import Card from './CARD/Card'
 import Form from '../COMPONENT/FORM/Form'
 import Image from '../COMPONENT/IMAGE/image'
 export default function Body(props) {
-
 
   return (
     <div className='body'>

@@ -10,76 +10,77 @@ import Nine from './images/Nine.jpg'
 import Ten from './images/Ten.jpg'
 import Eleven from './images/Eleven.jpeg'
 import Twelve from './images/Twelve.jpg'
-const News= [
+
+export const News= [
     {
         id: 1,
-        img: One,
+        image: One,
         bigtxt: "",
         smalltxt: "",
     },
     {
         id: 2,
-        img: Two,
+        image: Two,
         bigtxt: "",
         smalltxt: "",
     },
     {
         id: 3,
-        img: Three,
+        image: Three,
         bigtxt: "",
         smalltxt: "",
     },
     {
         id: 4,
-        img: Four,
+        image: Four,
         bigtxt: "",
         smalltxt: "",
     },
     {
         id: 5,
-        img: Five,
+        image: Five,
         bigtxt: "",
         smalltxt: "",
     },
     {
         id: 6,
-        img:Six,
+        image:Six,
         bigtxt: "",
         smalltxt: "",
     },
     {
         id: 7,
-        img: Seven,
+        image: Seven,
         bigtxt: "",
         smalltxt: "",
     },
     {
         id: 8,
-        img: Eight,
+        image: Eight,
         bigtxt: "",
         smalltxt: "",
     },
     {
         id: 9,
-        img: Nine,
+        image: Nine,
         bigtxt: "",
         smalltxt: "",
     },
     {
         id: 10,
-        img: Ten,
+        image: Ten,
         bigtxt: "",
         smalltxt: "",
     },
     {
         id: 11,
-        img: Eleven,
+        image: Eleven,
         bigtxt: "",
         smalltxt: "",
     },
     {
         id: 12,
-        img: Twelve,
+        image: Twelve,
         bigtxt: "",
         smalltxt: "",
     },
