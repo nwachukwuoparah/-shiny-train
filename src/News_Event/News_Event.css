@@ -14,13 +14,3 @@
     justify-content: center;
     margin-top: 50px;
 }
-.News_Event_Bttn{
-    width: 200px;
-    height: 70px;
-    margin-top: 50px;
-    border-radius: 8px;
-    border: none;
-    background-color: #621c4b;
-    color: white;
-    cursor: pointer;
-}
