@@ -5,7 +5,7 @@ import Companionship from './COMPANIONSHIP/Companionship';
 import Home_kepping from './HOUSE_KEPPING/home_kepping';
 import Personal_care from './PERSONAL_CARE/personal_care';
 import LiveInCare from './LIVE_IN_CARE/live_in_care';
-
+import OurCareCervice from './OUR_CARE_SERVICE/our_care_cervice';
 
 export default function TauntonWestSomerset2(props) {
 
@@ -19,7 +19,7 @@ export default function TauntonWestSomerset2(props) {
         <Route path='/home_kepping' element={<Home_kepping />} />
          <Route path='/personal_care' element={<Personal_care />} />
          <Route path='/live_in_care' element={<LiveInCare />} />
-        {/*  <Route path='/partnerships' element={<Partnerships />} /> */}
+         <Route path='/our_care_cervice' element={<OurCareCervice />} />
       </Routes>
     </>
 

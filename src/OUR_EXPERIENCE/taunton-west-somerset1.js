@@ -1,7 +1,7 @@
 import React from 'react'
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import OurExperience from './EXPERIENCE/ourExperience';
-import CareWork from './PARTNERSHIPS/partnerships';
+import CareWork from './CARE_WORK/care_work';
 import OurCareProf from './OUR_CARE_PROF/Our_care_prof';
 import Partnerships from './PARTNERSHIPS/partnerships';
 export default function TauntonWestSomerset1(props) {
@@ -17,6 +17,6 @@ export default function TauntonWestSomerset1(props) {
         <Route path='/partnerships' element={<Partnerships />} />
       </Routes>
     </>
-
   )
+
 }
