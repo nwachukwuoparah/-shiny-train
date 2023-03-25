@@ -7,7 +7,7 @@ export default function TheamCard(props) {
     <div style={{ border: props.stop && 'none', width: props.width && "95%" }} className='theme_card'>
       <div style={{ width: !props.image && "100%" }} className='theme_card_text'>
         <h2>{props.text1}</h2>
-        {props.text2 && <p>{props.text2}</p>}
+        {props.text2 && <p>{props.text2}</p>}                                                        
         {props.text3 && <p>{props.text3}</p>}
         {props.text4 && <p>{props.text4}</p>}
         {props.text5 && <p>{props.text5}</p>}
