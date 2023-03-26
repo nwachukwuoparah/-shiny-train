@@ -5,8 +5,6 @@ import { MdOutlineLocationOn } from "react-icons/md";
 import HeaderNav from './HeaderNav';
 import { useNavigate } from 'react-router-dom';
 
-
-
 export default function Header(props) {
   const Navigate = useNavigate()
   const [scroll, setScroll] = useState(false)
@@ -93,12 +91,12 @@ export default function Header(props) {
       Text1: [
         {
           text1: 'Cost of care',
-          nav: '/taunton-west-somerset3',
+          nav: '/taunton-west-somerset3/cost_of_care',
         },
         {
           text1: 'FAQs',
-          nav: '/taunton-west-somerset3',
-        },
+          nav: '/taunton-west-somerset3/faq',
+      },
         {
           text1: 'How to age well',
           nav: '/taunton-west-somerset3',
