@@ -103,39 +103,39 @@ export default function Header(props) {
         },
         {
           text1: 'Understanding and pepairing for home care',
-          nav: '/taunton-west-somerset3',
+          // nav: '/taunton-west-somerset3',
         },
         {
           text1: 'Choosing the right care for you',
-          nav: '/taunton-west-somerset3',
+          // nav: '/taunton-west-somerset3',
         },
         {
           text1: 'Nutrition',
-          nav: '/taunton-west-somerset3',
+          // nav: '/taunton-west-somerset3',
         },
         {
           text1: 'Preventing hospitalisation',
-          nav: '/taunton-west-somerset3',
+          // nav: '/taunton-west-somerset3',
         },
         {
           text1: 'Preventing falls',
-          nav: '/taunton-west-somerset3',
+          // nav: '/taunton-west-somerset3',
         },
         {
           text1: 'Staying safe at home',
-          nav: '/taunton-west-somerset3',
+          // nav: '/taunton-west-somerset3',
         },
         {
           text1: 'Health and wellbeing',
-          nav: '/taunton-west-somerset3',
+          // nav: '/taunton-west-somerset3',
         },
         {
           text1: 'Community involvement',
-          nav: '/taunton-west-somerset3',
+          // nav: '/taunton-west-somerset3',
         },
         {
           text1: 'Alzheimers and dementia care',
-          nav: '/taunton-west-somerset3',
+          // nav: '/taunton-west-somerset3',
         },
       ]
     },
