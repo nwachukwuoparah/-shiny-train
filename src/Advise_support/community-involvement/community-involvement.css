@@ -1,0 +1,19 @@
+.community-involvement_text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.community-involvement_contect_card {
+  width: 100%;
+}
+
+.community-involvement_nav_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 40px;
+}
