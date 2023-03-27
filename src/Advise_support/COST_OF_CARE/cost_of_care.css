@@ -1,16 +1,19 @@
-.advise_support_text {
-  width: 100%;
+.cost_of_care_text {
+  width: 95%;
+}
+
+.cost_of_care_wrap {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.advise_support_contect_card {
+.image1 {
   width: 100%;
 }
 
-.advise_support_nav_card {
+.cost_of_care_nav {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;

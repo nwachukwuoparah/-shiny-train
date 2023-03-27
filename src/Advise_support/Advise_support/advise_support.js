@@ -4,6 +4,7 @@ import Image from '../../COMPONENT/IMAGE/image'
 import TheamCard from '../../COMPONENT/TEAM_CARD/TheamCard'
 import Home_Monitoring from '../image/Home-Monitoring2-7951x2785.jpg'
 import Contact_card from '../../COMPONENT/CONTACT_CARD/Contact_card'
+import NavCard from '../../COMPONENT/NAVCARD/Nav_card'
 
 export default function AdviseSupport(props) {
 
@@ -36,6 +37,8 @@ export default function AdviseSupport(props) {
       </div>
 
       <div className='advise_support_nav_card'>
+        <NavCard Client={Home_Monitoring } />
+        <NavCard Client={Home_Monitoring } />
       </div>
     </div>
   )

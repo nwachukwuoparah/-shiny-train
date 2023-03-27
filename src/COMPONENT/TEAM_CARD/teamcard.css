@@ -17,6 +17,10 @@
   /* background-color: grey; */
 }
 
+.theme_card_text ul{
+margin-left: 20px;
+}
+
 .theme_card_text h2 {
 color: #631B4B;
 }

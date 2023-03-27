@@ -18,7 +18,9 @@ export default function TheamCard(props) {
           {props.li1 && <li>{props.li1}</li>}
           {props.li2 && <li>{props.li2}</li>}
           {props.li3 && <li>{props.li3}</li>}
+          {props.li4 && <li>{props.li4}</li>}
         </ul>
+        {props.text9 && <p>{props.text9}</p>}
       </div>
       <div className='theme_card_img'>
         {props.image && <img src={props.image} alt="image" />}
