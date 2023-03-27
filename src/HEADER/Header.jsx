@@ -96,46 +96,46 @@ export default function Header(props) {
         {
           text1: 'FAQs',
           nav: '/taunton-west-somerset3/faq',
-      },
+        },
         {
           text1: 'How to age well',
-          nav: '/taunton-west-somerset3',
+          nav: '/taunton-west-somerset3/age-well',
         },
         {
           text1: 'Understanding and pepairing for home care',
-          // nav: '/taunton-west-somerset3',
+          nav: '/taunton-west-somerset3/understanding-home-care',
         },
         {
           text1: 'Choosing the right care for you',
-          // nav: '/taunton-west-somerset3',
+          nav: '/taunton-west-somerset3/choosing-the-right-care',
         },
         {
           text1: 'Nutrition',
-          // nav: '/taunton-west-somerset3',
+          nav: '/taunton-west-somerset3/nutrition',
         },
         {
           text1: 'Preventing hospitalisation',
-          // nav: '/taunton-west-somerset3',
+          nav: '/taunton-west-somerset3/preventing-hospitalisation',
         },
         {
           text1: 'Preventing falls',
-          // nav: '/taunton-west-somerset3',
+          nav: '/taunton-west-somerset3/preventing-falls ',
         },
         {
           text1: 'Staying safe at home',
-          // nav: '/taunton-west-somerset3',
+          nav: '/taunton-west-somerset3/staying_safe',
         },
         {
           text1: 'Health and wellbeing',
-          // nav: '/taunton-west-somerset3',
+          nav: '/taunton-west-somerset3/health-and-wellbeing',
         },
         {
           text1: 'Community involvement',
-          // nav: '/taunton-west-somerset3',
+          nav: '/taunton-west-somerset3/community_involvement',
         },
         {
           text1: 'Alzheimers and dementia care',
-          // nav: '/taunton-west-somerset3',
+          nav: '/taunton-west-somerset3/dementia-care-including-alzheimers-disease',
         },
       ]
     },
@@ -143,15 +143,19 @@ export default function Header(props) {
       id: 6,
       text: 'Join our team',
       left: 929,
+      nav: '/taunton-west-somerset4',
       Text1: [
         {
           text1: 'Working in care',
+          // nav: '/tauntonWestSomerset4/'
         },
         {
           text1: 'Current vacancies',
+          // nav: '/tauntonWestSomerset4/'
         },
         {
           text1: 'Appply to be a care professional',
+          // nav: '/tauntonWestSomerset4/'
         },
       ]
     },
