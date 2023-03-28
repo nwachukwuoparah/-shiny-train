@@ -57,3 +57,12 @@
     margin-top: 28px;
     font-weight: 50;
 }
+.Work_Span{
+display: flex;
+flex-direction: column;
+}
+.Work_Span b{
+    color: purple;
+    font-weight: 50;
+    text-decoration: underline;
+}

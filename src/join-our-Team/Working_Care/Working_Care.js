@@ -11,7 +11,7 @@ const Working_Care = () => {
         <Image image={HomeMonitor} text="Working in care" />
         <div className='Working_Care_Text'>
           <div className='Working_Care_Text_Wrap'>
-            
+
             <p className='Our_Training'>
               There’s no doubt that recent times have highlighted the fantastic work of individuals in the care sector. Without the dedication of people across the industry, our elderly and vulnerable population aren’t able to live safe and happy lives.
             </p>
@@ -43,7 +43,12 @@ const Working_Care = () => {
               <strong>
                 <p className='Want_To_Apply'>Want to apply for a Care Professional role?</p>
               </strong>
-              <span className='Our_Training'>If you want to apply to join the caregiver family in your local area,  <a href="">click here to head to our Vacancies section.</a></span>
+              <span className='Work_Span'>
+                <p>
+                If you want to apply to join the caregiver family in your local area, 
+                </p>
+                <b> click here to head to our Vacancies section.</b>
+              </span>
 
             </div>
           </div>
