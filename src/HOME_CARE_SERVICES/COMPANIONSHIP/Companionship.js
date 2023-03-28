@@ -46,7 +46,6 @@ export default function Companionship(props) {
           <Nav_card Client={Home_Monitoring} />
         ))}
       </div>
-
       <div className='Companionship_bnx4'>
         <h1>Find out more</h1>
         <p>Speak to Home Instead Taunton & West Somerset now about Companionship</p>

@@ -147,7 +147,7 @@ export default function Header(props) {
       Text1: [
         {
           text1: 'Working in care',
-          // nav: '/tauntonWestSomerset4/'
+          nav: '/taunton-west-somerset4/working-care'
         },
         {
           text1: 'Current vacancies',

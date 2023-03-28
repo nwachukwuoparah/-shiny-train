@@ -1,0 +1,43 @@
+.Working_Care{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Working_Care_Wrap{
+    width: 60%;
+    font-size: 25px;
+    margin-top: 40px;
+}
+.Strong_p{
+    font-size: 30px;
+}
+.Strong_Div{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 40px; */
+}
+.WhyJoin{
+    font-size: 40px;
+}
+.WhyWork{
+    font-size: 40px;
+}
+.Want_To_Apply{
+    font-size: 40px;
+    margin-top: 40px;
+    font-weight: 100;
+}
+.List_Percent{
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+.List_Percent li{
+   line-height: 1.8;
+} 
+.Our_Training{
+    margin-top: 30px;
+}
