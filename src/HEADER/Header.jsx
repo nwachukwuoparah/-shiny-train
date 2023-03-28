@@ -151,11 +151,11 @@ export default function Header(props) {
         },
         {
           text1: 'Current vacancies',
-          // nav: '/tauntonWestSomerset4/'
+          // nav: '/taunton-west-somerset4/'
         },
         {
           text1: 'Appply to be a care professional',
-          // nav: '/tauntonWestSomerset4/'
+          // nav: '/taunton-west-somerset4/'
         },
       ]
     },
