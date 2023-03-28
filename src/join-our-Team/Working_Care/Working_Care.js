@@ -41,7 +41,6 @@ const Working_Care = () => {
             <p className='Want_To_Apply'>Want to apply for a Care Professional role?</p>
           </strong>
           <p className='Our_Training'>If you want to apply to join the caregiver family in your local area,  <a href="">click here to head to our Vacancies section.</a></p>
-          
         </div>
         <div className='livein_care_card'>
           {[1, 2].map((i) => (
