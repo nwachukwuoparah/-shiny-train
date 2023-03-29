@@ -1,60 +1,76 @@
-.Working_Care{
+.Working_Care {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.Workin_Wrap{
+
+.Workin_Wrap {
     width: 100%;
-    
+
 }
-.Working_Care_Text{
+
+.Working_Care_Text {
     width: 100%;
     display: flex;
-   align-items: center;
-   justify-content: center;
-    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
     /* font-weight: 100;*/
     margin-top: 40px;
 }
-.Working_Care_Text_Wrap{
-   width: 70%;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   /* background-color: blue; */
-}
-.Strong_p{
-    font-size: 30px;
-}
-.Strong_Div{
-    margin-top: 40px;
+
+.Working_Care_Text_Wrap {
+    width: 70%;
     display: flex;
     flex-direction: column;
-    /* gap: 40px; */
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
 }
-.WhyJoin{
-    font-size: 40px;
+
+/* .Strong_p{
+    font-size: 10px;
+} */
+.Strong_Div {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    gap: 20px;
 }
-.WhyWork{
-    font-size: 40px;
+
+.WhyJoin {
+    font-size: 20px;
 }
-.Want_To_Apply{
-    font-size: 40px;
-    margin-top: 40px;
-    font-weight: 100;
-}
-.List_Percent{
+
+
+.List_Percent {
     margin-left: 20px;
     margin-top: 30px;
 
 }
-.List_Percent li{
-   line-height: 1.8;
-} 
-.Our_Training{
+
+.List_Percent li {
+    line-height: 1.8;
+}
+
+.Our_Training {
     margin-top: 28px;
     font-weight: 50;
+}
+
+.Work_Span {
+    display: flex;
+    font-size: 22px;
+    gap: 5px;
+}
+
+.Work_Span b {
+    color: purple;
+    font-weight: 100;
+    text-decoration: underline;
 }

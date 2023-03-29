@@ -58,6 +58,52 @@ const Apply = () => {
                             </p>
                             <b> privacy policy.</b>
                           </span>
+                          <div className='Apply_Input_Wrap'>
+                            <label className='First_Label'>
+                                First Name
+                                <input className='Input'/>
+                            </label>
+                            <label className='First_Label'>
+                                Last Name
+                                <input className='Input'/>
+                            </label>
+                            <label className='First_Label'>
+                                Email address
+                                <input className='Input'/>
+                            </label>
+                            <label className='First_Label'>
+                                Contact telephone number
+                                <input className='Input'/>
+                            </label>
+                            <label className='Office_Label'>
+                            To find your nearest Home Instead, simply put your postcode, town or city in our postcode finder
+                               <span className='Office_Span'>
+                               <input className='Input_1'/>
+                                <button>Find office</button>
+                               </span>
+                            </label>
+                            <label className='Contact_Label'>
+                                Preferred method of Contact
+                               <div className='Contact_Label_Wrap'>
+                               <span className='Contact_Span'>
+                                <input type="checkbox" className='Check'/>
+                                <p>Telephone</p>
+                                </span>
+                                <span className='Contact_Span'>
+                                <input type="checkbox" className='Check'/>
+                                <p>Email</p>
+                                </span>
+                                <span className='Contact_Span'>
+                                <input type="checkbox" className='Check'/>
+                                <p>Text Message</p>
+                                </span>
+                               </div>
+                            </label>
+                            <label className='First_Label'>
+                                Contact telephone number
+                                <input className='Input'/>
+                            </label>
+                          </div>
                     </div>
                 </div>
             </div>
