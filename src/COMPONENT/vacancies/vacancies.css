@@ -1,0 +1,96 @@
+.vacancies {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Vacancies_wrap {
+  width: 59%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: #fff;
+  padding: 20px 15px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+
+.vacancies_card {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+  /* background-color: grey; */
+  box-shadow: 0 5px 35px rgba(50, 50, 93, .05), 0 5px 15px rgba(0, 0, 0, .04);
+  transition: 0.125s ease-out;
+  padding: 20px;
+}
+
+.vacancies_card_top {
+  width: 97%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.vacancies_card_top h2,
+h3 {
+  color: #611B4B;
+
+}
+
+.vacancies_card_top_span {
+  display: flex;
+  gap: 50px;
+  color: rgb(70, 68, 68);
+  font-size: 13px;
+}
+
+.vacancies_card_middle {
+  width: 97%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 15.5px;
+  color: rgb(70, 68, 68);
+  line-height: 20px;
+  /* background-color: red; */
+}
+
+.vacancies_card_middle_ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.vacancies_card_middle_ul ul {
+  margin-left: 15px;
+  line-height: 25px;
+}
+
+.vacancies_card_bottom {
+  width: 97%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  /* background-color: grey; */
+}
+
+.vacancies_card_bottom button {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: grey; */
+  padding: 20px 0px;
+  border-color: transparent;
+  border-radius: 5px;
+  background-color: #631B4B;
+  color: #f8f8f8;
+  font-size: 17px;
+}

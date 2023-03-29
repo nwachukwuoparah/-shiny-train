@@ -1,0 +1,41 @@
+.Apply_Main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Apply_Wrap{
+    width: 95%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 50px;
+}
+.Apply_Wrap_Left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: green; */
+}
+.Apply_Wrap_Right{
+    width: 50%;
+    /* background-color: gray; */
+}
+.Apply_Wrap_Right_Wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Apply_Right_Title{
+    color: purple;
+}
+.Apply_Span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}

@@ -155,7 +155,7 @@ export default function Header(props) {
         },
         {
           text1: 'Appply to be a care professional',
-          // nav: '/taunton-west-somerset4/'
+          nav: '/taunton-west-somerset4/apply'
         },
       ]
     },
