@@ -86,15 +86,15 @@ const Apply = () => {
                                 Preferred method of Contact
                                <div className='Contact_Label_Wrap'>
                                <span className='Contact_Span'>
-                                <input type="checkbox" className='Check'/>
+                                <input type="radio" className='Check'/>
                                 <p>Telephone</p>
                                 </span>
                                 <span className='Contact_Span'>
-                                <input type="checkbox" className='Check'/>
+                                <input type="radio"className='Check'/>
                                 <p>Email</p>
                                 </span>
                                 <span className='Contact_Span'>
-                                <input type="checkbox" className='Check'/>
+                                <input type="radio" className='Check'/>
                                 <p>Text Message</p>
                                 </span>
                                </div>
