@@ -51,59 +51,194 @@ const Apply = () => {
                 </div>
                 <div className='Apply_Wrap_Right'>
                     <div className='Apply_Wrap_Right_Wrap'>
-                          <p className='Apply_Right_Title'>Enquire Now</p>
-                          <span className='Apply_Span'>
+                        <p className='Apply_Right_Title'>Enquire Now</p>
+                        <span className='Apply_Span'>
                             <p>
-                            For more information on how we use your data, please refer to our
+                                For more information on how we use your data, please refer to our
                             </p>
                             <b> privacy policy.</b>
-                          </span>
-                          <div className='Apply_Input_Wrap'>
+                        </span>
+                        <div className='Apply_Input_Wrap'>
                             <label className='First_Label'>
                                 First Name
-                                <input className='Input'/>
+                                <input className='Input' />
                             </label>
                             <label className='First_Label'>
                                 Last Name
-                                <input className='Input'/>
+                                <input className='Input' />
                             </label>
                             <label className='First_Label'>
                                 Email address
-                                <input className='Input'/>
+                                <input className='Input' />
                             </label>
                             <label className='First_Label'>
                                 Contact telephone number
-                                <input className='Input'/>
+                                <input className='Input' />
                             </label>
                             <label className='Office_Label'>
-                            To find your nearest Home Instead, simply put your postcode, town or city in our postcode finder
-                               <span className='Office_Span'>
-                               <input className='Input_1'/>
-                                <button>Find office</button>
-                               </span>
+                                To find your nearest Home Instead, simply put your postcode, town or city in our postcode finder
+                                <span className='Office_Span'>
+                                    <input className='Input_1' />
+                                    <button>Find office</button>
+                                </span>
                             </label>
                             <label className='Contact_Label'>
                                 Preferred method of Contact
-                               <div className='Contact_Label_Wrap'>
-                               <span className='Contact_Span'>
-                                <input type="radio" className='Check'/>
-                                <p>Telephone</p>
-                                </span>
-                                <span className='Contact_Span'>
-                                <input type="radio"className='Check'/>
-                                <p>Email</p>
-                                </span>
-                                <span className='Contact_Span'>
-                                <input type="radio" className='Check'/>
-                                <p>Text Message</p>
-                                </span>
-                               </div>
+                                <div className='Contact_Label_Wrap'>
+                                    <span className='Contact_Span'>
+                                        <input type="radio" className='Check' />
+                                        <p>Telephone</p>
+                                    </span>
+                                    <span className='Contact_Span'>
+                                        <input type="radio" className='Check' />
+                                        <p>Email</p>
+                                    </span>
+                                    <span className='Contact_Span'>
+                                        <input type="radio" className='Check' />
+                                        <p>Text Message</p>
+                                    </span>
+                                </div>
                             </label>
                             <label className='First_Label'>
-                                Contact telephone number
-                                <input className='Input'/>
+                                Mobile Number if different to above
+                                <input className='Input' />
                             </label>
-                          </div>
+                            <label className='Contact_Label'>
+                                Best time to Contact
+                                <div className='Contact_Label_Wrap'>
+                                    <span className='Contact_Span'>
+                                        <input type="radio" className='Check' />
+                                        <p>Before 10am</p>
+                                    </span>
+                                    <span className='Contact_Span'>
+                                        <input type="radio" className='Check' />
+                                        <p>During the day</p>
+                                    </span>
+                                    <span className='Contact_Span'>
+                                        <input type="radio" className='Check' />
+                                        <p>After 4pm</p>
+                                    </span>
+                                    <span className='Contact_Span'>
+                                        <input type="radio" className='Check' />
+                                        <p>Weekend</p>
+                                    </span>
+                                </div>
+                            </label>
+                            <label className='Contact_Label'>
+                                <p> Did you hear about us from our campaigns?</p>
+                                <select className='Input'>
+                                    <option>Please select</option>
+                                    <option>1</option>
+                                    <option>1</option>
+                                    <option>1</option>
+                                    <option>1</option>
+                                    <option>1</option>
+                                </select>
+                            </label>
+                            <p style={{ fontSize: 20, fontWeight: 10 }}>The Home Instead network has independently owned offices throughout the UK</p>
+                            <label>
+                                <span className='Contact_Span'>
+                                    <input type="checkbox" className='Check' />
+                                    <p>Please confirm that you would be happy for us to share your enquiry with other Home Instead offices that are local to you</p>
+                                </span>
+                            </label>
+                            <label className='First_Label'>
+                                Please let us know what has attracted you to our CAREGiver role.
+                                <input className='Input' />
+                            </label>
+                            <label className='Contact_Label'>
+                                <p>As our clients are predominately cared for in their own homes and may live in remote areas or would like you to accompany them on appointments or outings, do you have access to suitable means of transport?
+
+                                </p>
+                                <div className='Contact_Label_Wrap'>
+                                    <span className='Contact_Span'>
+                                        <input type="radio" className='Check' />
+                                        <p>Yes</p>
+                                    </span>
+                                    <span className='Contact_Span'>
+                                        <input type="radio" className='Check' />
+                                        <p>No</p>
+                                    </span>
+                                </div>
+                            </label>
+                            <label className='First_Label'>
+                                Please let us know what has attracted you to our CAREGiver role.
+                                <input className='Input' />
+                            </label>
+                            <label className='Contact_Label'>
+                                <p>Please select the days of the week that you are available to work.
+                                </p>
+                                <div className='Contact_Label_Wrap'>
+                                    <span className='Contact_Span'>
+                                        <input type="checkbox" className='Check' />
+                                        <p>Mon</p>
+                                    </span>
+                                    <span className='Contact_Span'>
+                                        <input type="checkbox" className='Check' />
+                                        <p>Tue</p>
+                                    </span>
+                                    <span className='Contact_Span'>
+                                        <input type="checkbox" className='Check' />
+                                        <p>Wed</p>
+                                    </span>
+                                    <span className='Contact_Span'>
+                                        <input type="checkbox" className='Check' />
+                                        <p>Thu</p>
+                                    </span>
+                                    <span className='Contact_Span'>
+                                        <input type="checkbox" className='Check' />
+                                        <p>Fri</p>
+                                    </span>
+                                    <span className='Contact_Span'>
+                                        <input type="checkbox" className='Check' />
+                                        <p>Sat</p>
+                                    </span>
+                                    <span className='Contact_Span'>
+                                        <input type="checkbox" className='Check' />
+                                        <p>Sun</p>
+                                    </span>
+                                </div>
+                            </label>
+                            <label className='Contact_Label'>
+                                <p>Please select the times of day that you are available to work.
+                                </p>
+                                <div className='Contact_Label_Wrap'>
+                                    <span className='Contact_Span'>
+                                        <input type="checkbox" className='Check' />
+                                        <p>Anytime</p>
+                                    </span>
+                                    <span className='Contact_Span'>
+                                        <input type="checkbox" className='Check' />
+                                        <p>Morning</p>
+                                    </span>
+                                    <span className='Contact_Span'>
+                                        <input type="checkbox" className='Check' />
+                                        <p>Lunchtime</p>
+                                    </span>
+                                    <span className='Contact_Span'>
+                                        <input type="checkbox" className='Check' />
+                                        <p>Afternoon</p>
+                                    </span>
+                                    <span className='Contact_Span'>
+                                        <input type="checkbox" className='Check' />
+                                        <p>Evening</p>
+                                    </span>
+                                    <span className='Contact_Span'>
+                                        <input type="checkbox" className='Check' />
+                                        <p>Overnight</p>
+                                    </span>
+                                    <span className='Contact_Span'>
+                                        <input type="checkbox" className='Check' />
+                                        <p>Live-in</p>
+                                    </span>
+                                </div>
+                            </label>
+                            <label className='First_Label'>
+                            Approximately how many hours per week would you like to work?
+                                <input className='Input' type="number" />
+                            </label>
+                        </div>
+                        <button className='Form-submit_Button'>Submit Enquiry</button>
                     </div>
                 </div>
             </div>

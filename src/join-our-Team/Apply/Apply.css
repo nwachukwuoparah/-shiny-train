@@ -21,7 +21,7 @@
     /* background-color: green; */
 }
 .Apply_Wrap_Right{
-    width: 45%;
+    width: 50%;
     /* background-color: gray; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 10px;
@@ -65,6 +65,7 @@
     height: 40px;
     border: none;
     outline: none;
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -96,18 +97,25 @@
     font-size: 15px;
 }
 .Contact_Span{
+    /* width: 200px; */
+    /* background-color: gray; */
     display: flex;
-    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 .Contact_Label{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    /* gap: 10px; */
     font-weight: 200;
     font-size: 20px;
 }
 .Contact_Label_Wrap{
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
     gap: 10px;
     font-weight: 200;
     font-size: 20px;
@@ -119,4 +127,14 @@
     outline: none;
     cursor: pointer;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+}
+.Form-submit_Button{
+    width: 250px;
+    height: 42px;
+    border: none;
+    outline: none;
+    background-color: purple;
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
 }
